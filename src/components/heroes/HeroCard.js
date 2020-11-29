@@ -29,7 +29,7 @@ export const HeroCard = ({
             <p className='card-text'>
               <small className='text-muted'>{first_appearance}</small>
             </p>
-            <Link to={`./hero/${id}`}>Más...</Link>
+            <Link to={`./hero/${id}`}>More...</Link>
           </div>
         </div>
       </div>
