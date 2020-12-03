@@ -11,13 +11,12 @@ export const Navbar = () => {
   const history = useHistory();
 
   const handleLogout = () => {
-    //dispatch
     const action = {
       type: types.logout,
     };
     dispatch(action);
 
-    history.push('/login');
+    history.replace('/login');
   };
   return (
     <nav className='navbar navbar-expand-sm navbar-dark bg-dark'>
