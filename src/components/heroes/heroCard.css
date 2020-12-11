@@ -20,6 +20,12 @@
   grid-area: frontAndBack;
 }
 
+.front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .back {
   grid-area: frontAndBack;
   transform: rotateY(-180deg);

@@ -74,21 +74,16 @@ Array [
       </h1>,
       <hr />,
       <div
-        className="card-columns animate__animated animate__fadeIn"
+        className="row animate__animated animate__fadeIn"
       >
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Spider Man"
@@ -97,10 +92,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -110,6 +105,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   Peter Parker
                 </p>
                 <p
@@ -118,6 +117,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     Amazing Fantasy #15
                   </small>
                 </p>
@@ -132,18 +135,13 @@ Array [
           </div>
         </div>
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Captain America"
@@ -152,10 +150,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -165,6 +163,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   Steve Rogers
                 </p>
                 <p
@@ -173,6 +175,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     Captain America Comics #1
                   </small>
                 </p>
@@ -187,18 +193,13 @@ Array [
           </div>
         </div>
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Iron Man"
@@ -207,10 +208,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -220,6 +221,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   Tony Stark
                 </p>
                 <p
@@ -228,6 +233,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     Tales of Suspense #39
                   </small>
                 </p>
@@ -242,18 +251,13 @@ Array [
           </div>
         </div>
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Thor"
@@ -262,10 +266,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -275,6 +279,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   Thor Odinson
                 </p>
                 <p
@@ -283,6 +291,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     Journey into Myster #83
                   </small>
                 </p>
@@ -297,18 +309,13 @@ Array [
           </div>
         </div>
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Hulk"
@@ -317,10 +324,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -330,6 +337,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   Bruce Banner
                 </p>
                 <p
@@ -338,6 +349,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     The Incredible Hulk #1
                   </small>
                 </p>
@@ -352,18 +367,13 @@ Array [
           </div>
         </div>
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Wolverine"
@@ -372,10 +382,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -385,6 +395,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   James Howlett
                 </p>
                 <p
@@ -393,6 +407,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     The Incredible Hulk #180
                   </small>
                 </p>
@@ -407,18 +425,13 @@ Array [
           </div>
         </div>
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Daredevil"
@@ -427,10 +440,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -440,6 +453,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   Matthew Michael Murdock
                 </p>
                 <p
@@ -448,6 +465,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     Daredevil #1
                   </small>
                 </p>
@@ -462,18 +483,13 @@ Array [
           </div>
         </div>
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Hawkeye"
@@ -482,10 +498,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -495,6 +511,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   Clinton Francis Barton
                 </p>
                 <p
@@ -503,6 +523,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     Tales of Suspense #57
                   </small>
                 </p>
@@ -517,18 +541,13 @@ Array [
           </div>
         </div>
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Cyclops"
@@ -537,10 +556,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -550,6 +569,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   Scott Summers
                 </p>
                 <p
@@ -558,6 +581,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     X-Men #1
                   </small>
                 </p>
@@ -572,18 +599,13 @@ Array [
           </div>
         </div>
         <div
-          className="card ms-3"
-          style={
-            Object {
-              "maxWidth": 540,
-            }
-          }
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="row no-gutters"
+            className="card-flip"
           >
             <div
-              className="col-md-4"
+              className="card front"
             >
               <img
                 alt="Silver Surfer"
@@ -592,10 +614,10 @@ Array [
               />
             </div>
             <div
-              className="col-md-8"
+              className="card back p-4"
             >
               <div
-                className="card-body"
+                className="card-block"
               >
                 <h5
                   className="card-title"
@@ -605,6 +627,10 @@ Array [
                 <p
                   className="card-text"
                 >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
                   Norrin Radd
                 </p>
                 <p
@@ -613,6 +639,10 @@ Array [
                   <small
                     className="text-muted"
                   >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
                     The Fantastic Four #48
                   </small>
                 </p>

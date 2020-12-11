@@ -11,7 +11,7 @@ export const HeroCard = ({
   characters,
 }) => {
   return (
-    <div className='card-container col-md-4 col-sm-6'>
+    <div className='card-container col-md-4 col-sm-6 mb-4'>
       <div className='card-flip'>
         <div className='card front'>
           <img

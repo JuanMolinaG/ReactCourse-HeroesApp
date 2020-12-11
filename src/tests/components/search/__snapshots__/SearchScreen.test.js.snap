@@ -43,56 +43,63 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrar a Batman y el input debe te
       </h4>
       <hr />
       <div
-        className="card ms-3"
-        style={
-          Object {
-            "maxWidth": 540,
-          }
-        }
+        className="row"
       >
         <div
-          className="row no-gutters"
+          className="card-container col-md-4 col-sm-6 mb-4"
         >
           <div
-            className="col-md-4"
-          >
-            <img
-              alt="Batman"
-              className="card-img"
-              src="./assets/heroes/dc-batman.jpg"
-            />
-          </div>
-          <div
-            className="col-md-8"
+            className="card-flip"
           >
             <div
-              className="card-body"
+              className="card front"
             >
-              <h5
-                className="card-title"
+              <img
+                alt="Batman"
+                className="card-img"
+                src="./assets/heroes/dc-batman.jpg"
+              />
+            </div>
+            <div
+              className="card back p-4"
+            >
+              <div
+                className="card-block"
               >
-                Batman
-              </h5>
-              <p
-                className="card-text"
-              >
-                Bruce Wayne
-              </p>
-              <p
-                className="card-text"
-              >
-                <small
-                  className="text-muted"
+                <h5
+                  className="card-title"
                 >
-                  Detective Comics #27
-                </small>
-              </p>
-              <a
-                href="/hero/dc-batman"
-                onClick={[Function]}
-              >
-                More...
-              </a>
+                  Batman
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  <b>
+                    Alter Ego:
+                  </b>
+                   
+                  Bruce Wayne
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                    <b>
+                      First Appeatance:
+                    </b>
+                     
+                    Detective Comics #27
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-batman"
+                  onClick={[Function]}
+                >
+                  More...
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -145,9 +152,13 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrar el componente correctamente
       </h4>
       <hr />
       <div
-        className="alert alert-info"
+        className="row"
       >
-        Search a hero
+        <div
+          className="alert alert-info col-12"
+        >
+          Search a hero
+        </div>
       </div>
     </div>
   </div>

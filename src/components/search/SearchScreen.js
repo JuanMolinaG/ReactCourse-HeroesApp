@@ -49,15 +49,19 @@ export const SearchScreen = ({ history }) => {
         <div className='col-7'>
           <h4>Results</h4>
           <hr />
-          {q === '' && <div className='alert alert-info'>Search a hero</div>}
-          {q !== '' && heroesFiltered.length === 0 && (
-            <div className='alert alert-danger'>
-              There is no a hero called {q}
-            </div>
-          )}
-          {heroesFiltered.map((hero) => (
-            <HeroCard key={hero.id} {...hero} />
-          ))}
+          <div className='row'>
+            {q === '' && (
+              <div className='alert alert-info col-12'>Search a hero</div>
+            )}
+            {q !== '' && heroesFiltered.length === 0 && (
+              <div className='alert alert-danger col-12'>
+                There is no a hero called {q}
+              </div>
+            )}
+            {heroesFiltered.map((hero) => (
+              <HeroCard key={hero.id} {...hero} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
